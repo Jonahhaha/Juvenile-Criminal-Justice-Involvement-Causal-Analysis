@@ -1,0 +1,32 @@
+               M0_CJSI                F0_CJSI                Y0_Male                 Y0_Age 
+            0.33232628             0.24169184             0.52265861            12.61933535 
+         Y0_DB_Gen_Del              Y0_DB_SnJ              Y0_ARREST           Y0_PD_Depres 
+            0.78851964             1.15407855             0.06042296             3.43504532 
+          Y0_PD_Suspic     Y0_PD_Cog_Perc_Dys            Y0_PD_Impul          Y0_PD_Eccentr 
+           11.32024169             6.47129909             7.29305136             8.32326284 
+     Y0_PD_Odd_Bel_Exp        Y0_PD_Hostility        Y0_PD_Sep_Insec           Y0_PD_Withdr 
+            6.63746224             7.18429003             4.30815710             3.27190332 
+            Y0_AU_Freq           Y0_AU_Drinks          Y0_AU_4Drinks            Y0_AU_Drunk 
+            0.34441088             0.41389728             0.20845921             0.21148036 
+           Y0_IMP_Home         Y0_IMP_Parents        Y0_IMP_Depr_Anx        Y0_IMP_Behavior 
+            3.70392749             1.64652568             2.22658610             2.84592145 
+     Y0_IMP_Activities       Y0_IMP_Par_Worry            Y0_IMP_Help                 Y0_SAD 
+            2.00604230             3.36253776             0.91238671             2.88368580 
+                 Y0_PD                Y0_AGOR                 Y0_GAD                Y0_PTSD 
+            0.39879154             0.42296073             2.91238671             0.81268882 
+                Y0_MDD                  Y0_CD              Y1_ARREST            Y1_DB_Alone 
+            5.64425982             1.49848943             0.15407855             0.37764350 
+           Y1_DB_Group      Y1_DB_Alone_Group     Y1_PD_Susp_Eccentr           Y1_PD_Depres 
+            0.31722054             0.10876133            18.44410876             3.31722054 
+     Y1_PD_Odd_Bel_Exp        Y1_PD_Hostility            Y1_PD_Impul           Y1_PD_Withdr 
+            6.56495468             5.11178248            12.45317221             3.12688822 
+Y1_PD_Perc_Dys_Sep_Ins            Y1_IMP_Home      Y1_IMP_Activities        Y1_IMP_Behavior 
+            6.40181269             4.24773414             4.05135952             2.60422961 
+       Y1_IMP_Depr_Anx       Y1_IMP_Par_Worry            Y1_IMP_Help                 Y1_SAD 
+            1.94561934             3.07250755             0.79154079             2.06646526 
+                 Y1_PD                Y1_AGOR                 Y1_GAD                Y1_PTSD 
+            0.32024169             0.29607251             2.45015106             0.61631420 
+                Y1_MDD                  Y1_CD                 Y1_ODD                 Y1_AUD 
+            4.95015106             1.33685801             3.96072508             0.06193353 
+                Y1_MUD                  Y1_ND 
+            0.24471299             0.06495468 

@@ -1,0 +1,62 @@
+To say Y0_CD now is 25 percent, but the relationship should remain the same. The average of Y0_CD is 1.49848943 the decrease part is 1.49848943 * 0.75 = 1.123867
+M0_CJSI Won't change
+F0_CJSI Won't change
+Y0_Male Won't change
+Y0_Age Won't change
+Y0_DB_Gen_Del Won't change
+Y0_DB_SnJ Won't change
+Y0_ARREST Won't change
+Y0_PD_Depres Won't change
+Y0_PD_Suspic Won't change
+Y0_PD_Cog_Perc_Dys Won't change
+Y0_PD_Impul Won't change
+Y0_PD_Eccentr Won't change
+Y0_PD_Odd_Bel_Exp Won't change
+Y0_PD_Hostility Won't change
+Y0_PD_Sep_Insec Won't change
+Y0_PD_Withdr Won't change
+Y0_AU_Freq Won't change
+Y0_AU_Drinks Won't change
+Y0_AU_4Drinks Won't change
+Y0_AU_Drunk Won't change
+Y0_IMP_Home Won't change
+Y0_IMP_Parents will decrease by 13.72%
+Y0_IMP_Depr_Anx Won't change
+Y0_IMP_Behavior Won't change
+Y0_IMP_Activities Won't change
+Y0_IMP_Par_Worry Won't change
+Y0_IMP_Help Won't change
+Y0_SAD Won't change
+Y0_PD will decrease by 5.46%
+Y0_AGOR Won't change
+Y0_GAD will decrease by 1.82%
+Y0_PTSD Won't change
+Y0_MDD will decrease by 11.03%
+Y1_ARREST will decrease by -913.22%
+Y1_DB_Alone will decrease by 46.72%
+Y1_DB_Group will decrease by -78.07%
+Y1_DB_Alone_Group will decrease by -23.0%
+Y1_PD_Susp_Eccentr will decrease by -0.79%
+Y1_PD_Depres will decrease by 0.66%
+Y1_PD_Odd_Bel_Exp Won't change
+Y1_PD_Hostility Won't change
+Y1_PD_Impul Won't change
+Y1_PD_Withdr Won't change
+Y1_PD_Perc_Dys_Sep_Ins Won't change
+Y1_IMP_Home will decrease by 2.36%
+Y1_IMP_Activities Won't change
+Y1_IMP_Behavior will decrease by 2.12%
+Y1_IMP_Depr_Anx Won't change
+Y1_IMP_Par_Worry Won't change
+Y1_IMP_Help will decrease by 0.21%
+Y1_SAD will decrease by -13.98%
+Y1_PD will decrease by -4.06%
+Y1_AGOR Won't change
+Y1_GAD will decrease by 0.42%
+Y1_PTSD will decrease by 5.94%
+Y1_MDD will decrease by 5.23%
+Y1_CD will decrease by 37.16%
+Y1_ODD will decrease by 11.89%
+Y1_AUD will decrease by 272.81%
+Y1_MUD will decrease by -165.91%
+Y1_ND will decrease by 155.72%
