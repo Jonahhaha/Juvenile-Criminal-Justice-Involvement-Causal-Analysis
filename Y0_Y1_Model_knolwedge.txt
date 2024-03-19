@@ -1,0 +1,18 @@
+/knowledge
+addtemporal
+
+1*  F0_CJSI M0_CJSI Y0_Age Y0_Male
+2  Y0_AGOR Y0_ARREST Y0_AU_4Drinks Y0_AU_Drinks Y0_AU_Drunk Y0_AU_Freq Y0_CD Y0_DB_Gen-Del Y0_DB_SnJ Y0_GAD Y0_IMP_Activities Y0_IMP_Behavior Y0_IMP_Depr-Anx Y0_IMP_Help Y0_IMP_Home Y0_IMP_Par-Worry Y0_IMP_Parents Y0_MDD Y0_PD Y0_PD_Cog-Perc-Dys Y0_PD_Depres Y0_PD_Eccentr Y0_PD_Hostility Y0_PD_Impul Y0_PD_Odd-Bel-Exp Y0_PD_Sep-Insec Y0_PD_Suspic Y0_PD_Withdr Y0_PTSD Y0_SAD
+3  Y1_Age
+4  Y1_AGOR Y1_ARREST Y1_AUD Y1_CD Y1_DB_Alone Y1_DB_Alone_Group Y1_DB_Group Y1_GAD Y1_IMP_Activities Y1_IMP_Behavior Y1_IMP_Depr-Anx Y1_IMP_Help Y1_IMP_Home Y1_IMP_Par-Worry Y1_MDD Y1_MUD Y1_ND Y1_ODD Y1_PD Y1_PD_Depres Y1_PD_Hostility Y1_PD_Impul Y1_PD_Odd-Bel-Exp Y1_PD_Perc-Dys_Sep-Ins Y1_PD_Susp-Eccentr Y1_PD_Withdr Y1_PTSD Y1_SAD
+5 
+6 
+7 
+8 
+9 
+
+forbiddirect
+M0_CJSI Y1_Age
+F0_CJSI Y1_Age
+
+requiredirect
