@@ -1,0 +1,11 @@
+## README file
+This is the readme file for reading and all the information that is needed for this project
+Title: Applying machine learning methods to identify predictors and causes for trauma related outcomes
+
+To organize it in terms of priority:
+(1) fit/replicate GRASP model
+(2) Bootstrap stability analysis
+(3) Estimate causal effect
+(4) simulate intervention
+(5) Predictive modeling with current set of variables
+(6) Various sensitivity analysis and analysis including additional variables.
