@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(lavaan)
 setwd('/Users/jonah/Downloads/lab_data/')
 # load graph file (txt) saved from Tetrad
-con = file('12_19_graph.txt', "r")
+con = file('graspfci_1701977640763_out.txt', "r")
 while ( TRUE ) {
   line = readLines(con, n = 1)
   if ( length(line) == 0|line=='Graph Edges:' ) {
@@ -54,6 +54,10 @@ fit
 summary(fit,fit.measures=TRUE)
 #data2
 #install.packages("xlsx")
+options(max.print=1000000)
+sink(file = "lm_output.txt")
+summary(fit)
+sink(file = NULL)
 
 ```
 
@@ -108,4 +112,5 @@ newdata2 = subset(newdata2, select = -Y0_ARREST)
 fit4<-sem(mdstr,data=newdata2)
 summary(fit4,fit.measures=TRUE)
 which(is.na(newdata2))
+ave(data)
 ```

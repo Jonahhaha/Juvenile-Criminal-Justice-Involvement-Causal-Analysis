@@ -100,7 +100,6 @@ for (i in 1:nrow(el)){
 library(lavaan)
 data<-read.table("Jonah_Y0_Y1_Model_3.csv1_final_copy.txt",header= TRUE)
 fit<-sem(mdstr,data=data)
-
 summary(fit,fit.measures=TRUE)
 ```
 
