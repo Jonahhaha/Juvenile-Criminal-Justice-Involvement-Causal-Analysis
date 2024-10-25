@@ -1,0 +1,512 @@
+lavaan 0.6.16 ended normally after 175 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                       341
+
+  Number of observations                           601
+
+Model Test User Model:
+                                                      
+  Test statistic                              4525.392
+  Degrees of freedom                              1675
+  P-value (Chi-square)                           0.000
+
+Model Test Baseline Model:
+
+  Test statistic                             16988.966
+  Degrees of freedom                              1953
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.810
+  Tucker-Lewis Index (TLI)                       0.779
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)             -56714.739
+  Loglikelihood unrestricted model (H1)     -54452.043
+                                                      
+  Akaike (AIC)                              114111.478
+  Bayesian (BIC)                            115611.399
+  Sample-size adjusted Bayesian (SABIC)     114528.816
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.053
+  90 Percent confidence interval - lower         0.051
+  90 Percent confidence interval - upper         0.055
+  P-value H_0: RMSEA <= 0.050                    0.002
+  P-value H_0: RMSEA >= 0.080                    0.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.112
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Regressions:
+                           Estimate  Std.Err  z-value  P(>|z|)
+  F0_CJSI ~                                                   
+    M0_CJSI                  -0.344    0.035   -9.853    0.000
+  M0_CJSI ~                                                   
+    Y0_ARREST                 0.459    0.098    4.706    0.000
+  Y0_AU_4Drinks ~                                             
+    Y0_AU_Drunk               0.299    0.028   10.855    0.000
+    Y0_AU_Freq                0.521    0.028   18.598    0.000
+  Y0_SAD ~                                                    
+    Y0_Age                   -0.238    0.040   -5.897    0.000
+  Y1_CD ~                                                     
+    Y0_CD                     0.437    0.037   11.652    0.000
+  Y0_ARREST ~                                                 
+    Y0_DB_Gen_Del             0.047    0.007    6.899    0.000
+  Y1_DB_Alone ~                                               
+    Y0_DB_Gen_Del             0.172    0.020    8.512    0.000
+  Y1_DB_Alone_Group ~                                         
+    Y0_DB_Gen_Del             0.101    0.013    7.645    0.000
+  Y1_Age ~                                                    
+    Y0_DB_SnJ                 0.471    0.062    7.582    0.000
+  Y1_DB_Group ~                                               
+    Y0_DB_SnJ                 0.114    0.016    7.084    0.000
+  Y1_GAD ~                                                    
+    Y0_GAD                    0.218    0.030    7.135    0.000
+  Y0_IMP_Parents ~                                            
+    Y0_IMP_Activts            0.200    0.033    6.060    0.000
+  Y0_PD_Withdr ~                                              
+    Y0_IMP_Activts            0.155    0.027    5.778    0.000
+  Y0_PD_Impul ~                                               
+    Y0_IMP_Behavir            0.335    0.038    8.725    0.000
+  Y0_IMP_Activities ~                                         
+    Y0_IMP_Dpr_Anx            0.247    0.040    6.129    0.000
+  Y0_IMP_Help ~                                               
+    Y0_IMP_Dpr_Anx            0.142    0.022    6.311    0.000
+  Y0_IMP_Home ~                                               
+    Y0_IMP_Dpr_Anx            0.528    0.059    8.883    0.000
+  Y1_IMP_Depr_Anx ~                                           
+    Y0_IMP_Dpr_Anx            0.241    0.036    6.759    0.000
+  Y0_IMP_Activities ~                                         
+    Y0_IMP_Home               0.292    0.025   11.548    0.000
+  Y0_IMP_Behavior ~                                           
+    Y0_IMP_Home               0.212    0.023    9.274    0.000
+  Y0_IMP_Parents ~                                            
+    Y0_IMP_Home               0.247    0.023   10.894    0.000
+  Y1_IMP_Activities ~                                         
+    Y0_IMP_Home               0.249    0.041    6.125    0.000
+  Y1_IMP_Home ~                                               
+    Y0_IMP_Parents            0.371    0.057    6.497    0.000
+  Y0_GAD ~                                                    
+    Y0_MDD                    0.235    0.018   13.243    0.000
+  Y0_IMP_Depr_Anx ~                                           
+    Y0_MDD                    0.164    0.026    6.241    0.000
+  Y0_PD ~                                                     
+    Y0_MDD                    0.046    0.005    8.609    0.000
+  Y0_PTSD ~                                                   
+    Y0_MDD                    0.144    0.021    6.855    0.000
+  Y1_MDD ~                                                    
+    Y0_MDD                    0.500    0.036   14.025    0.000
+  Y0_PD_Odd_Bel_Exp ~                                         
+    Y0_PD_Cg_Prc_D            0.249    0.035    7.074    0.000
+  Y1_PD_Perc_Dys_Sep_Ins ~                                    
+    Y0_PD_Cg_Prc_D            0.267    0.033    8.177    0.000
+  Y1_PD_Depres ~                                              
+    Y0_PD_Depres              0.258    0.034    7.562    0.000
+  Y0_MDD ~                                                    
+    Y0_PD_Eccentr             0.416    0.036   11.526    0.000
+  Y0_PD_Cog_Perc_Dys ~                                        
+    Y0_PD_Eccentr             0.322    0.032   10.011    0.000
+  Y0_PD_Odd_Bel_Exp ~                                         
+    Y0_PD_Eccentr             0.198    0.029    6.941    0.000
+  Y0_IMP_Home ~                                               
+    Y0_PD_Hostilty            0.296    0.044    6.721    0.000
+  Y0_PD_Cog_Perc_Dys ~                                        
+    Y0_PD_Hostilty            0.281    0.035    7.998    0.000
+  Y0_IMP_Depr_Anx ~                                           
+    Y0_PD_Suspic              0.163    0.022    7.384    0.000
+  Y0_Male ~                                                   
+    Y0_PD_Suspic             -0.020    0.006   -3.641    0.000
+  Y0_PD_Hostility ~                                           
+    Y0_PD_Suspic              0.460    0.026   17.926    0.000
+  Y0_PD_Impul ~                                               
+    Y0_PD_Suspic              0.251    0.023   11.155    0.000
+  Y0_PD_Sep_Insec ~                                           
+    Y0_PD_Suspic              0.130    0.017    7.570    0.000
+  Y0_PD_Withdr ~                                              
+    Y0_PD_Suspic             -0.125    0.017   -7.400    0.000
+  Y1_PD_Susp_Eccentr ~                                        
+    Y0_PD_Suspic              0.385    0.051    7.591    0.000
+  Y1_PD_Withdr ~                                              
+    Y0_PD_Withdr              0.310    0.038    8.188    0.000
+  Y1_PTSD ~                                                   
+    Y0_PTSD                   0.200    0.032    6.326    0.000
+  Y0_AGOR ~                                                   
+    Y0_SAD                    0.075    0.011    7.141    0.000
+  Y0_GAD ~                                                    
+    Y0_SAD                    0.301    0.029   10.534    0.000
+  Y0_PD_Sep_Insec ~                                           
+    Y0_SAD                    0.223    0.033    6.788    0.000
+  Y1_SAD ~                                                    
+    Y0_SAD                    0.357    0.026   13.687    0.000
+  Y0_AGOR ~                                                   
+    Y1_AGOR                   0.383    0.041    9.245    0.000
+  Y0_ARREST ~                                                 
+    Y1_ARREST                 0.192    0.024    7.862    0.000
+  Y1_Age ~                                                    
+    Y1_ARREST                 1.446    0.273    5.292    0.000
+  Y1_DB_Alone ~                                               
+    Y1_ARREST                 0.655    0.072    9.098    0.000
+  Y1_DB_Group ~                                               
+    Y1_ARREST                 0.768    0.071   10.849    0.000
+  Y1_PD_Depres ~                                              
+    Y1_AUD                    0.939    0.142    6.609    0.000
+  Y1_PTSD ~                                                   
+    Y1_AUD                    1.139    0.191    5.960    0.000
+  Y0_Age ~                                                    
+    Y1_Age                    0.792    0.016   49.141    0.000
+  Y1_IMP_Behavior ~                                           
+    Y1_CD                     0.465    0.057    8.199    0.000
+  Y1_MUD ~                                                    
+    Y1_CD                     0.134    0.019    7.182    0.000
+  Y1_ODD ~                                                    
+    Y1_CD                     0.875    0.056   15.648    0.000
+  Y1_CD ~                                                     
+    Y1_DB_Alone               0.867    0.072   11.973    0.000
+  Y1_AUD ~                                                    
+    Y1_DB_Alon_Grp            0.276    0.027   10.196    0.000
+  Y1_MUD ~                                                    
+    Y1_DB_Alon_Grp            0.660    0.063   10.415    0.000
+  Y1_AUD ~                                                    
+    Y1_DB_Group               0.112    0.018    6.385    0.000
+  Y1_DB_Alone_Group ~                                         
+    Y1_DB_Group               0.202    0.024    8.482    0.000
+  Y1_IMP_Behavior ~                                           
+    Y1_IMP_Activts            0.220    0.020   11.195    0.000
+  Y1_IMP_Help ~                                               
+    Y1_IMP_Activts            0.077    0.011    6.670    0.000
+  Y1_IMP_Home ~                                               
+    Y1_IMP_Activts            0.481    0.030   15.849    0.000
+  Y0_IMP_Behavior ~                                           
+    Y1_IMP_Behavir            0.289    0.038    7.697    0.000
+  Y1_IMP_Par_Worry ~                                          
+    Y1_IMP_Behavir            0.120    0.026    4.589    0.000
+  Y1_PD_Impul ~                                               
+    Y1_IMP_Behavir            0.433    0.051    8.502    0.000
+  Y1_IMP_Activities ~                                         
+    Y1_IMP_Dpr_Anx            0.638    0.068    9.366    0.000
+  Y0_IMP_Par_Worry ~                                          
+    Y1_IMP_Pr_Wrry            0.204    0.034    6.010    0.000
+  Y1_GAD ~                                                    
+    Y1_MDD                    0.212    0.017   12.833    0.000
+  Y1_ODD ~                                                    
+    Y1_MDD                    0.285    0.023   12.653    0.000
+  Y1_PD ~                                                     
+    Y1_MDD                    0.047    0.006    8.465    0.000
+  Y1_PD_Susp_Eccentr ~                                        
+    Y1_MDD                    0.519    0.058    8.900    0.000
+  Y1_SAD ~                                                    
+    Y1_MDD                    0.192    0.016   12.232    0.000
+  Y1_IMP_Home ~                                               
+    Y1_ODD                    0.301    0.049    6.205    0.000
+  Y1_PD_Hostility ~                                           
+    Y1_ODD                    0.218    0.029    7.532    0.000
+  Y0_PD ~                                                     
+    Y1_PD                     0.323    0.036    8.908    0.000
+  Y1_IMP_Help ~                                               
+    Y1_PD_Depres              0.217    0.041    5.248    0.000
+  Y1_MDD ~                                                    
+    Y1_PD_Depres              0.702    0.107    6.571    0.000
+  Y1_PD_Odd_Bel_Exp ~                                         
+    Y1_PD_Pr_D_S_I            0.252    0.036    6.921    0.000
+  Y1_PD_Susp_Eccentr ~                                        
+    Y1_PD_Pr_D_S_I            1.049    0.084   12.489    0.000
+  Y1_IMP_Depr_Anx ~                                           
+    Y1_PD_Ssp_Eccn            0.108    0.013    8.249    0.000
+  Y1_PD_Hostility ~                                           
+    Y1_PD_Ssp_Eccn            0.207    0.012   17.631    0.000
+  Y1_PD_Impul ~                                               
+    Y1_PD_Ssp_Eccn            0.304    0.018   16.482    0.000
+  Y1_PD_Odd_Bel_Exp ~                                         
+    Y1_PD_Ssp_Eccn            0.118    0.014    8.324    0.000
+  Y1_AGOR ~                                                   
+    Y1_SAD                    0.123    0.012   10.334    0.000
+  Y1_GAD ~                                                    
+    Y1_SAD                    0.241    0.035    6.974    0.000
+  Y1_PD ~                                                     
+    Y1_SAD                    0.073    0.012    6.309    0.000
+  Y1_PD_Perc_Dys_Sep_Ins ~                                    
+    Y1_SAD                    0.371    0.054    6.867    0.000
+
+Covariances:
+                       Estimate  Std.Err  z-value  P(>|z|)
+  Y0_AU_Drunk ~~                                          
+    Y0_AU_Drinks          0.202    0.018   11.077    0.000
+  Y0_AU_Freq ~~                                           
+    Y0_AU_Drinks          0.371    0.025   14.608    0.000
+    Y0_DB_SnJ             0.083    0.017    4.818    0.000
+ .Y0_MDD ~~                                               
+    Y0_CD                 0.367    0.101    3.624    0.000
+  Y0_CD ~~                                                
+    Y1_ARREST             0.084    0.012    7.290    0.000
+    Y1_ND                 0.055    0.012    4.427    0.000
+    Y0_DB_Gen_Del         0.502    0.048   10.472    0.000
+  Y0_DB_Gen_Del ~~                                        
+    Y0_PD_Depres          0.143    0.033    4.304    0.000
+  Y0_CD ~~                                                
+    Y0_DB_SnJ             0.619    0.059   10.501    0.000
+  Y0_DB_Gen_Del ~~                                        
+    Y0_DB_SnJ             0.885    0.063   13.959    0.000
+  Y0_DB_SnJ ~~                                            
+    Y0_PD_Suspic          0.258    0.104    2.472    0.013
+ .Y0_PD_Hostility ~~                                      
+    Y0_PD_Eccentr         2.466    0.252    9.779    0.000
+  Y0_PD_Eccentr ~~                                        
+    Y0_PD_Suspic          5.877    0.499   11.780    0.000
+ .F0_CJSI ~~                                              
+   .Y0_AU_4Drinks        -0.002    0.008   -0.299    0.765
+   .Y1_GAD               -0.032    0.019   -1.700    0.089
+   .Y0_PD_Impul           0.042    0.033    1.277    0.202
+   .Y0_IMP_Help          -0.014    0.019   -0.738    0.460
+   .Y1_IMP_Home           0.004    0.044    0.089    0.929
+   .Y0_PD                -0.003    0.006   -0.448    0.654
+   .Y0_PD_Odd_Bl_E       -0.017    0.028   -0.592    0.554
+   .Y0_Male              -0.001    0.008   -0.065    0.948
+   .Y0_PD_Sep_Insc        0.029    0.025    1.130    0.258
+   .Y1_PD_Withdr          0.039    0.024    1.646    0.100
+   .Y1_PTSD              -0.021    0.020   -1.001    0.317
+   .Y0_AGOR              -0.001    0.008   -0.145    0.885
+   .Y1_MUD                0.008    0.009    0.828    0.408
+   .Y1_IMP_Help           0.014    0.017    0.800    0.424
+   .Y1_PD_Impul          -0.040    0.042   -0.959    0.338
+   .Y0_IMP_Pr_Wrry        0.012    0.018    0.666    0.505
+   .Y1_PD_Hostilty       -0.003    0.026   -0.128    0.898
+   .Y1_PD_Odd_Bl_E        0.067    0.029    2.301    0.021
+ .Y0_AU_4Drinks ~~                                        
+   .Y1_GAD               -0.028    0.023   -1.243    0.214
+   .Y0_PD_Impul           0.021    0.039    0.544    0.586
+   .Y0_IMP_Help           0.003    0.023    0.124    0.901
+   .Y1_IMP_Home          -0.026    0.053   -0.494    0.621
+   .Y0_PD                 0.005    0.008    0.668    0.504
+   .Y0_PD_Odd_Bl_E       -0.023    0.034   -0.692    0.489
+   .Y0_Male              -0.013    0.010   -1.317    0.188
+   .Y0_PD_Sep_Insc       -0.057    0.030   -1.869    0.062
+   .Y1_PD_Withdr          0.025    0.028    0.863    0.388
+   .Y1_PTSD               0.051    0.025    2.057    0.040
+   .Y0_AGOR              -0.009    0.009   -0.989    0.322
+   .Y1_MUD               -0.004    0.011   -0.327    0.744
+   .Y1_IMP_Help          -0.027    0.021   -1.306    0.192
+   .Y1_PD_Impul          -0.055    0.050   -1.096    0.273
+   .Y0_IMP_Pr_Wrry        0.010    0.021    0.476    0.634
+   .Y1_PD_Hostilty        0.006    0.031    0.189    0.850
+   .Y1_PD_Odd_Bl_E       -0.025    0.035   -0.714    0.475
+ .Y1_GAD ~~                                               
+   .Y0_PD_Impul          -0.136    0.095   -1.439    0.150
+   .Y0_IMP_Help          -0.015    0.055   -0.280    0.780
+   .Y1_IMP_Home           0.072    0.127    0.568    0.570
+   .Y0_PD                 0.001    0.018    0.064    0.949
+   .Y0_PD_Odd_Bl_E        0.050    0.082    0.610    0.542
+   .Y0_Male              -0.015    0.023   -0.647    0.517
+   .Y0_PD_Sep_Insc        0.038    0.073    0.517    0.605
+   .Y1_PD_Withdr         -0.041    0.069   -0.596    0.551
+   .Y1_PTSD              -0.005    0.059   -0.092    0.927
+   .Y0_AGOR              -0.015    0.023   -0.661    0.509
+   .Y1_MUD               -0.031    0.027   -1.126    0.260
+   .Y1_IMP_Help           0.066    0.050    1.328    0.184
+   .Y1_PD_Impul           0.022    0.121    0.183    0.855
+   .Y0_IMP_Pr_Wrry       -0.064    0.052   -1.235    0.217
+   .Y1_PD_Hostilty       -0.171    0.077   -2.228    0.026
+   .Y1_PD_Odd_Bl_E        0.025    0.085    0.294    0.769
+ .Y0_PD_Impul ~~                                          
+   .Y0_IMP_Help          -0.023    0.095   -0.246    0.806
+   .Y1_IMP_Home           0.400    0.221    1.814    0.070
+   .Y0_PD                -0.069    0.032   -2.151    0.031
+   .Y0_PD_Odd_Bl_E       -0.125    0.142   -0.878    0.380
+   .Y0_Male               0.054    0.040    1.325    0.185
+   .Y0_PD_Sep_Insc        0.373    0.128    2.921    0.003
+   .Y1_PD_Withdr         -0.030    0.119   -0.250    0.803
+   .Y1_PTSD               0.107    0.103    1.042    0.298
+   .Y0_AGOR              -0.034    0.039   -0.867    0.386
+   .Y1_MUD               -0.039    0.047   -0.835    0.404
+   .Y1_IMP_Help           0.126    0.086    1.469    0.142
+   .Y1_PD_Impul           0.628    0.210    2.994    0.003
+   .Y0_IMP_Pr_Wrry       -0.016    0.089   -0.178    0.859
+   .Y1_PD_Hostilty        0.100    0.132    0.758    0.448
+   .Y1_PD_Odd_Bl_E        0.293    0.147    1.996    0.046
+ .Y0_IMP_Help ~~                                          
+   .Y1_IMP_Home          -0.016    0.129   -0.125    0.900
+   .Y0_PD                 0.037    0.019    2.002    0.045
+   .Y0_PD_Odd_Bl_E        0.025    0.083    0.302    0.763
+   .Y0_Male               0.036    0.024    1.529    0.126
+   .Y0_PD_Sep_Insc        0.118    0.074    1.585    0.113
+   .Y1_PD_Withdr          0.052    0.070    0.742    0.458
+   .Y1_PTSD               0.027    0.060    0.444    0.657
+   .Y0_AGOR               0.032    0.023    1.376    0.169
+   .Y1_MUD               -0.011    0.027   -0.421    0.674
+   .Y1_IMP_Help           0.263    0.051    5.127    0.000
+   .Y1_PD_Impul          -0.055    0.122   -0.452    0.651
+   .Y0_IMP_Pr_Wrry       -0.009    0.052   -0.171    0.864
+   .Y1_PD_Hostilty        0.173    0.077    2.233    0.026
+   .Y1_PD_Odd_Bl_E        0.042    0.085    0.497    0.619
+ .Y1_IMP_Home ~~                                          
+   .Y0_PD                 0.005    0.043    0.118    0.906
+   .Y0_PD_Odd_Bl_E       -0.212    0.192   -1.105    0.269
+   .Y0_Male              -0.119    0.055   -2.187    0.029
+   .Y0_PD_Sep_Insc       -0.084    0.171   -0.490    0.624
+   .Y1_PD_Withdr         -0.004    0.161   -0.026    0.979
+   .Y1_PTSD               0.029    0.139    0.208    0.835
+   .Y0_AGOR              -0.085    0.053   -1.598    0.110
+   .Y1_MUD                0.107    0.063    1.692    0.091
+   .Y1_IMP_Help           0.094    0.116    0.815    0.415
+   .Y1_PD_Impul           0.499    0.282    1.769    0.077
+   .Y0_IMP_Pr_Wrry        0.039    0.120    0.327    0.744
+   .Y1_PD_Hostilty       -0.010    0.178   -0.056    0.956
+   .Y1_PD_Odd_Bl_E        0.260    0.197    1.320    0.187
+ .Y0_PD ~~                                                
+   .Y0_PD_Odd_Bl_E        0.026    0.028    0.938    0.348
+   .Y0_Male               0.001    0.008    0.107    0.915
+   .Y0_PD_Sep_Insc        0.031    0.025    1.253    0.210
+   .Y1_PD_Withdr         -0.026    0.023   -1.125    0.260
+   .Y1_PTSD               0.003    0.020    0.136    0.892
+   .Y0_AGOR               0.015    0.008    1.974    0.048
+   .Y1_MUD                0.014    0.009    1.515    0.130
+   .Y1_IMP_Help          -0.015    0.017   -0.866    0.386
+   .Y1_PD_Impul           0.034    0.041    0.834    0.404
+   .Y0_IMP_Pr_Wrry        0.017    0.017    0.962    0.336
+   .Y1_PD_Hostilty        0.013    0.026    0.510    0.610
+   .Y1_PD_Odd_Bl_E        0.037    0.029    1.279    0.201
+ .Y0_PD_Odd_Bel_Exp ~~                                    
+   .Y0_Male               0.033    0.035    0.951    0.342
+   .Y0_PD_Sep_Insc        0.039    0.111    0.356    0.722
+   .Y1_PD_Withdr         -0.020    0.104   -0.197    0.844
+   .Y1_PTSD               0.054    0.090    0.607    0.544
+   .Y0_AGOR              -0.023    0.034   -0.680    0.497
+   .Y1_MUD               -0.008    0.041   -0.207    0.836
+   .Y1_IMP_Help           0.104    0.075    1.384    0.166
+   .Y1_PD_Impul          -0.290    0.182   -1.590    0.112
+   .Y0_IMP_Pr_Wrry       -0.004    0.078   -0.052    0.959
+   .Y1_PD_Hostilty       -0.087    0.115   -0.759    0.448
+   .Y1_PD_Odd_Bl_E        0.485    0.129    3.763    0.000
+ .Y0_Male ~~                                              
+   .Y0_PD_Sep_Insc       -0.066    0.031   -2.110    0.035
+   .Y1_PD_Withdr          0.050    0.030    1.682    0.093
+   .Y1_PTSD              -0.011    0.025   -0.430    0.667
+   .Y0_AGOR              -0.011    0.010   -1.174    0.240
+   .Y1_MUD                0.013    0.012    1.153    0.249
+   .Y1_IMP_Help           0.016    0.021    0.755    0.450
+   .Y1_PD_Impul           0.010    0.051    0.190    0.850
+   .Y0_IMP_Pr_Wrry       -0.022    0.022   -1.009    0.313
+   .Y1_PD_Hostilty       -0.053    0.033   -1.623    0.105
+   .Y1_PD_Odd_Bl_E        0.143    0.037    3.905    0.000
+ .Y0_PD_Sep_Insec ~~                                      
+   .Y1_PD_Withdr         -0.247    0.093   -2.647    0.008
+   .Y1_PTSD               0.118    0.080    1.473    0.141
+   .Y0_AGOR               0.125    0.031    4.048    0.000
+   .Y1_MUD               -0.003    0.036   -0.076    0.939
+   .Y1_IMP_Help           0.060    0.067    0.897    0.370
+   .Y1_PD_Impul           0.146    0.162    0.900    0.368
+   .Y0_IMP_Pr_Wrry        0.033    0.069    0.479    0.632
+   .Y1_PD_Hostilty        0.175    0.103    1.707    0.088
+   .Y1_PD_Odd_Bl_E       -0.239    0.114   -2.099    0.036
+ .Y1_PD_Withdr ~~                                         
+   .Y1_PTSD              -0.109    0.075   -1.451    0.147
+   .Y0_AGOR              -0.034    0.029   -1.194    0.232
+   .Y1_MUD                0.008    0.034    0.236    0.813
+   .Y1_IMP_Help           0.079    0.063    1.255    0.209
+   .Y1_PD_Impul          -0.245    0.153   -1.606    0.108
+   .Y0_IMP_Pr_Wrry       -0.100    0.065   -1.539    0.124
+   .Y1_PD_Hostilty       -0.034    0.096   -0.349    0.727
+   .Y1_PD_Odd_Bl_E       -0.221    0.107   -2.067    0.039
+ .Y1_PTSD ~~                                              
+   .Y0_AGOR              -0.021    0.025   -0.845    0.398
+   .Y1_MUD                0.054    0.030    1.831    0.067
+   .Y1_IMP_Help          -0.044    0.054   -0.816    0.415
+   .Y1_PD_Impul           0.022    0.131    0.171    0.864
+   .Y0_IMP_Pr_Wrry       -0.028    0.056   -0.500    0.617
+   .Y1_PD_Hostilty       -0.038    0.083   -0.453    0.651
+   .Y1_PD_Odd_Bl_E       -0.044    0.092   -0.476    0.634
+ .Y0_AGOR ~~                                              
+   .Y1_MUD                0.008    0.011    0.717    0.473
+   .Y1_IMP_Help           0.002    0.021    0.096    0.924
+   .Y1_PD_Impul           0.032    0.050    0.630    0.529
+   .Y0_IMP_Pr_Wrry        0.005    0.021    0.250    0.803
+   .Y1_PD_Hostilty        0.003    0.032    0.080    0.936
+   .Y1_PD_Odd_Bl_E       -0.073    0.035   -2.069    0.039
+ .Y1_MUD ~~                                               
+   .Y1_IMP_Help          -0.009    0.025   -0.354    0.723
+   .Y1_PD_Impul           0.042    0.060    0.701    0.483
+   .Y0_IMP_Pr_Wrry       -0.004    0.026   -0.144    0.885
+   .Y1_PD_Hostilty       -0.063    0.038   -1.656    0.098
+   .Y1_PD_Odd_Bl_E        0.006    0.042    0.134    0.893
+ .Y1_IMP_Help ~~                                          
+   .Y1_PD_Impul          -0.099    0.110   -0.905    0.365
+ [ reached getOption("max.print") -- omitted 12 rows ]
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .F0_CJSI           0.159    0.009   17.335    0.000
+   .M0_CJSI           0.201    0.012   17.335    0.000
+   .Y0_AU_4Drinks     0.228    0.013   17.335    0.000
+   .Y0_SAD            3.271    0.189   17.335    0.000
+   .Y1_CD             0.975    0.056   17.335    0.000
+   .Y0_ARREST         0.030    0.002   17.335    0.000
+   .Y1_DB_Alone       0.259    0.015   17.335    0.000
+   .Y1_DB_Alon_Grp    0.106    0.006   17.335    0.000
+   .Y1_Age            3.731    0.215   17.335    0.000
+   .Y1_DB_Group       0.250    0.014   17.335    0.000
+   .Y1_GAD            1.341    0.077   17.335    0.000
+   .Y0_IMP_Parents    2.433    0.140   17.335    0.000
+   .Y0_PD_Withdr      2.099    0.121   17.335    0.000
+   .Y0_PD_Impul       4.001    0.231   17.335    0.000
+   .Y0_IMP_Activts    3.500    0.202   17.335    0.000
+   .Y0_IMP_Help       1.366    0.079   17.335    0.000
+   .Y0_IMP_Home       8.469    0.489   17.335    0.000
+   .Y1_IMP_Dpr_Anx    3.131    0.181   17.335    0.000
+   .Y0_IMP_Behavir    3.329    0.192   17.335    0.000
+   .Y1_IMP_Activts   10.478    0.604   17.335    0.000
+   .Y1_IMP_Home       7.278    0.420   17.335    0.000
+   .Y0_GAD            1.699    0.098   17.335    0.000
+   .Y0_IMP_Dpr_Anx    3.502    0.202   17.335    0.000
+   .Y0_PD             0.153    0.009   17.335    0.000
+   .Y0_PTSD           2.384    0.138   17.335    0.000
+   .Y1_MDD            6.851    0.395   17.335    0.000
+   .Y0_PD_Odd_Bl_E    3.042    0.176   17.335    0.000
+   .Y1_PD_Pr_D_S_I    3.872    0.223   17.335    0.000
+   .Y1_PD_Depres      0.853    0.049   17.335    0.000
+   .Y0_MDD            7.369    0.425   17.335    0.000
+   .Y0_PD_Cg_Prc_D    3.541    0.204   17.335    0.000
+   .Y0_Male           0.244    0.014   17.335    0.000
+   .Y0_PD_Hostilty    4.999    0.288   17.335    0.000
+   .Y0_PD_Sep_Insc    2.412    0.139   17.335    0.000
+   .Y1_PD_Ssp_Eccn   19.023    1.097   17.335    0.000
+   .Y1_PD_Withdr      2.136    0.123   17.335    0.000
+   .Y1_PTSD           1.587    0.092   17.335    0.000
+   .Y0_AGOR           0.233    0.013   17.335    0.000
+   .Y1_SAD            1.419    0.082   17.335    0.000
+   .Y0_Age            0.665    0.038   17.335    0.000
+   .Y1_IMP_Behavir    3.016    0.174   17.335    0.000
+   .Y1_MUD            0.328    0.019   17.335    0.000
+   .Y1_ODD            2.928    0.169   17.335    0.000
+   .Y1_AUD            0.051    0.003   17.335    0.000
+   .Y1_IMP_Help       1.109    0.064   17.335    0.000
+   .Y1_IMP_Pr_Wrry    1.634    0.094   17.335    0.000
+   .Y1_PD_Impul       6.522    0.376   17.335    0.000
+   .Y0_IMP_Pr_Wrry    1.191    0.069   17.335    0.000
+   .Y1_PD             0.149    0.009   17.335    0.000
+   .Y1_PD_Hostilty    2.611    0.151   17.335    0.000
+   .Y1_PD_Odd_Bl_E    3.205    0.185   17.335    0.000
+   .Y1_AGOR           0.187    0.011   17.335    0.000
+    Y0_AU_Drunk       0.484    0.028   17.335    0.000
+    Y0_AU_Freq        0.467    0.027   17.511    0.000
+    Y0_CD             1.217    0.068   17.852    0.000
+    Y0_DB_Gen_Del     1.056    0.060   17.474    0.000
+    Y0_DB_SnJ         1.612    0.092   17.556    0.000
+    Y0_PD_Depres      1.220    0.070   17.335    0.000
+    Y0_PD_Eccentr     9.187    0.530   17.340    0.000
+    Y0_PD_Suspic     12.619    0.726   17.375    0.000
+    Y1_ARREST         0.083    0.005   17.335    0.000
+    Y0_AU_Drinks      0.630    0.034   18.564    0.000
+    Y1_ND             0.110    0.006   17.335    0.000
+

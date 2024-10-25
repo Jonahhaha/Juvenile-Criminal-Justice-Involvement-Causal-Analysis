@@ -1,0 +1,179 @@
+================================================================================
+GRASP-FCI (Thu, December 07, 2023 01:34:00 PM)
+================================================================================
+
+Runtime Parameters
+--------------------------------------------------------------------------------
+number of threads: 7
+
+Dataset
+--------------------------------------------------------------------------------
+file: Jonah_Y0_Y1_Model_3.csv1_final_copy.txt
+header: yes
+delimiter: tab
+quote char: none
+missing marker: none
+comment marker: none
+
+Knowledge
+--------------------------------------------------------------------------------
+file: Jonah_Y0_Y1_Model_knolwedge2.txt
+
+Algorithm Run
+--------------------------------------------------------------------------------
+algorithm: GRASP-FCI
+test of independence: Fisher Z Test
+score: EBIC Score
+
+Algorithm Parameters
+--------------------------------------------------------------------------------
+addOriginalDataset: yes
+alpha: 0.01
+completeRuleSetUsed: yes
+depth: -1
+doDiscriminatingPathRule: yes
+ebicGamma: 0.8
+graspDepth: 3
+graspNonSingularDepth: 1
+graspOrderedAlg: yes
+graspSingularDepth: 1
+graspUseRaskuttiUhler: no
+maxPathLength: -1
+numberResampling: 0
+numStarts: 1
+percentResampleSize: 100
+possibleMsepDone: yes
+precomputeCovariances: yes
+resamplingEnsemble: 1
+resamplingWithReplacement: yes
+saveBootstrapGraphs: no
+seed: -1
+timeLag: 0
+useDataOrder: yes
+verbose: no
+
+
+Thu, December 07, 2023 01:34:00 PM: Start data validation on file Jonah_Y0_Y1_Model_3.csv1_final_copy.txt.
+Thu, December 07, 2023 01:34:00 PM: End data validation on file Jonah_Y0_Y1_Model_3.csv1_final_copy.txt.
+There are 601 cases and 62 variables.
+
+Thu, December 07, 2023 01:34:00 PM: Start reading in file Jonah_Y0_Y1_Model_3.csv1_final_copy.txt.
+Thu, December 07, 2023 01:34:00 PM: Finished reading in file Jonah_Y0_Y1_Model_3.csv1_final_copy.txt.
+Thu, December 07, 2023 01:34:00 PM: File Jonah_Y0_Y1_Model_3.csv1_final_copy.txt contains 601 cases, 62 variables.
+Thu, December 07, 2023 01:34:00 PM: Start reading in file Jonah_Y0_Y1_Model_knolwedge2.txt.
+Thu, December 07, 2023 01:34:00 PM: Finished reading in file Jonah_Y0_Y1_Model_knolwedge2.txt.
+
+Start search: Thu, December 07, 2023 01:34:00 PM
+End search: Thu, December 07, 2023 01:34:01 PM
+
+================================================================================
+Graph Nodes:
+M0_CJSI;F0_CJSI;Y0_Male;Y0_Age;Y0_DB_Gen_Del;Y0_DB_SnJ;Y0_ARREST;Y0_PD_Depres;Y0_PD_Suspic;Y0_PD_Cog_Perc_Dys;Y0_PD_Impul;Y0_PD_Eccentr;Y0_PD_Odd_Bel_Exp;Y0_PD_Hostility;Y0_PD_Sep_Insec;Y0_PD_Withdr;Y0_AU_Freq;Y0_AU_Drinks;Y0_AU_4Drinks;Y0_AU_Drunk;Y0_IMP_Home;Y0_IMP_Parents;Y0_IMP_Depr_Anx;Y0_IMP_Behavior;Y0_IMP_Activities;Y0_IMP_Par_Worry;Y0_IMP_Help;Y0_SAD;Y0_PD;Y0_AGOR;Y0_GAD;Y0_PTSD;Y0_MDD;Y0_CD;Y1_ARREST;Y1_DB_Alone;Y1_DB_Group;Y1_DB_Alone_Group;Y1_PD_Susp_Eccentr;Y1_PD_Depres;Y1_PD_Odd_Bel_Exp;Y1_PD_Hostility;Y1_PD_Impul;Y1_PD_Withdr;Y1_PD_Perc_Dys_Sep_Ins;Y1_IMP_Home;Y1_IMP_Activities;Y1_IMP_Behavior;Y1_IMP_Depr_Anx;Y1_IMP_Par_Worry;Y1_IMP_Help;Y1_SAD;Y1_PD;Y1_AGOR;Y1_GAD;Y1_PTSD;Y1_MDD;Y1_CD;Y1_ODD;Y1_AUD;Y1_MUD;Y1_ND
+
+Graph Edges:
+1. F0_CJSI <-> M0_CJSI
+2. Y0_AU_Drinks --> Y0_AU_Drunk
+3. Y0_AU_Drunk --> Y0_AU_4Drinks
+4. Y0_AU_Freq --> Y0_AU_4Drinks
+5. Y0_AU_Freq --> Y0_AU_Drinks
+6. Y0_CD o-o Y0_DB_Gen_Del
+7. Y0_CD --> Y0_IMP_Behavior
+8. Y0_CD --> Y1_ARREST
+9. Y0_CD --> Y1_CD
+10. Y0_CD --> Y1_ND
+11. Y0_DB_Gen_Del --> Y0_ARREST
+12. Y0_DB_Gen_Del --> Y0_PD_Depres
+13. Y0_DB_Gen_Del --> Y1_DB_Alone
+14. Y0_DB_Gen_Del --> Y1_DB_Alone_Group
+15. Y0_DB_SnJ --> Y0_AU_Freq
+16. Y0_DB_SnJ <-> Y0_Age
+17. Y0_DB_SnJ --> Y0_CD
+18. Y0_DB_SnJ --> Y0_DB_Gen_Del
+19. Y0_DB_SnJ --> Y0_PD_Suspic
+20. Y0_GAD --> Y0_SAD
+21. Y0_GAD --> Y1_GAD
+22. Y0_IMP_Behavior --> Y0_IMP_Home
+23. Y0_IMP_Behavior --> Y0_PD_Impul
+24. Y0_IMP_Behavior --> Y1_IMP_Behavior
+25. Y0_IMP_Depr_Anx --> Y0_IMP_Activities
+26. Y0_IMP_Depr_Anx --> Y0_IMP_Help
+27. Y0_IMP_Depr_Anx --> Y1_IMP_Depr_Anx
+28. Y0_IMP_Home --> Y0_IMP_Activities
+29. Y0_IMP_Home --> Y0_IMP_Depr_Anx
+30. Y0_IMP_Home --> Y0_IMP_Parents
+31. Y0_IMP_Home --> Y1_IMP_Activities
+32. Y0_IMP_Par_Worry o-> Y1_IMP_Par_Worry
+33. Y0_IMP_Parents --> Y1_IMP_Home
+34. Y0_MDD --> Y0_GAD
+35. Y0_MDD --> Y0_PD
+36. Y0_MDD --> Y0_PTSD
+37. Y0_Male o-> Y0_PD_Withdr
+38. Y0_PD --> Y1_PD
+39. Y0_PD_Cog_Perc_Dys --> Y0_PD_Odd_Bel_Exp
+40. Y0_PD_Depres --> Y1_PD_Depres
+41. Y0_PD_Eccentr --> Y0_MDD
+42. Y0_PD_Eccentr --> Y0_PD_Cog_Perc_Dys
+43. Y0_PD_Eccentr --> Y0_PD_Odd_Bel_Exp
+44. Y0_PD_Hostility --> Y0_IMP_Behavior
+45. Y0_PD_Hostility --> Y0_PD_Cog_Perc_Dys
+46. Y0_PD_Hostility --> Y0_PD_Depres
+47. Y0_PD_Hostility o-o Y0_PD_Eccentr
+48. Y0_PD_Odd_Bel_Exp --> Y1_PD_Odd_Bel_Exp
+49. Y0_PD_Sep_Insec o-o Y0_PD_Hostility
+50. Y0_PD_Sep_Insec --> Y0_SAD
+51. Y0_PD_Sep_Insec --> Y1_PD_Perc_Dys_Sep_Ins
+52. Y0_PD_Suspic --> Y0_IMP_Depr_Anx
+53. Y0_PD_Suspic --> Y0_PD_Eccentr
+54. Y0_PD_Suspic --> Y0_PD_Hostility
+55. Y0_PD_Suspic --> Y0_PD_Impul
+56. Y0_PD_Suspic --> Y0_PD_Sep_Insec
+57. Y0_PD_Suspic --> Y0_PD_Withdr
+58. Y0_PD_Suspic --> Y1_PD_Susp_Eccentr
+59. Y0_PD_Withdr --> Y1_PD_Withdr
+60. Y0_PTSD --> Y1_PTSD
+61. Y0_SAD --> Y0_AGOR
+62. Y0_SAD <-> Y0_Age
+63. Y0_SAD --> Y0_PD
+64. Y0_SAD --> Y1_SAD
+65. Y1_AGOR <-> Y0_AGOR
+66. Y1_ARREST <-> Y0_ARREST
+67. Y1_ARREST --> Y1_DB_Alone
+68. Y1_ARREST --> Y1_DB_Group
+69. Y1_AUD --> Y1_PD_Depres
+70. Y1_AUD --> Y1_PTSD
+71. Y1_CD --> Y1_DB_Group
+72. Y1_CD --> Y1_MUD
+73. Y1_CD --> Y1_ODD
+74. Y1_DB_Alone --> Y1_CD
+75. Y1_DB_Alone_Group --> Y1_AUD
+76. Y1_DB_Alone_Group --> Y1_MUD
+77. Y1_DB_Group --> Y1_AUD
+78. Y1_DB_Group --> Y1_DB_Alone_Group
+79. Y1_IMP_Activities --> Y1_IMP_Behavior
+80. Y1_IMP_Activities --> Y1_IMP_Help
+81. Y1_IMP_Activities --> Y1_IMP_Home
+82. Y1_IMP_Behavior --> Y1_IMP_Par_Worry
+83. Y1_IMP_Behavior --> Y1_PD_Hostility
+84. Y1_IMP_Behavior --> Y1_PD_Impul
+85. Y1_IMP_Depr_Anx --> Y1_IMP_Activities
+86. Y1_IMP_Help <-> Y0_IMP_Help
+87. Y1_MDD <-> Y0_MDD
+88. Y1_MDD --> Y1_GAD
+89. Y1_MDD --> Y1_PD
+90. Y1_MDD --> Y1_SAD
+91. Y1_ODD --> Y1_IMP_Home
+92. Y1_ODD --> Y1_MDD
+93. Y1_PD_Depres --> Y1_IMP_Help
+94. Y1_PD_Hostility --> Y1_ODD
+95. Y1_PD_Odd_Bel_Exp --> Y1_PD_Perc_Dys_Sep_Ins
+96. Y1_PD_Odd_Bel_Exp --> Y1_PD_Susp_Eccentr
+97. Y1_PD_Susp_Eccentr --> Y1_IMP_Depr_Anx
+98. Y1_PD_Susp_Eccentr --> Y1_MDD
+99. Y1_PD_Susp_Eccentr --> Y1_PD_Hostility
+100. Y1_PD_Susp_Eccentr --> Y1_PD_Impul
+101. Y1_PD_Susp_Eccentr --> Y1_PD_Perc_Dys_Sep_Ins
+102. Y1_SAD --> Y1_AGOR
+103. Y1_SAD --> Y1_GAD
+
+Graph Attributes:
+score : -7656.0980
