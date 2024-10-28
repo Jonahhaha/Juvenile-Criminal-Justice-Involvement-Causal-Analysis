@@ -31,8 +31,10 @@ II. Chose the algorthim and variables to generate the graph
 2. I use R to bootstrape to [generate 100 datasets](https://github.com/Jonahhaha/Intervetion/blob/main/Bootstrpe_Final_Result/bootstrap%20result%20final.xlsx), where I also run the [Causal_CMD](https://github.com/bd2kccd/causal-cmd) to produce the accuracy for my dataset.
 3. I use [Python](https://github.com/Jonahhaha/Intervetion/blob/main/Bootstrpe_Final_Result/GET_THE_CASUAL_RELATIONSHIPS.ipynb) to generate the right format for the causal relationships, and write it down in txt file. 
 4. I use [R Lavvan](https://github.com/Jonahhaha/Intervetion/blob/main/Final%20result%20copy/labforLavaan.Rmd) to numeric the causal relationships.
-5. I use [Python](https://github.com/Jonahhaha/Intervetion/blob/main/Lavaan/CODE_Lavaan%20Data%20Result.ipynb) to select the data I needed from the causal relationships, and then using Excel to sort and decide the insight I can provide for the lab.
+5. I use [R](https://github.com/Jonahhaha/Intervention_of_CJS/blob/main/Lavaan/CODE_labforLavaan.pdf) to check should we standlized the dataset and is Causal_CMD and Tetrad has any difference. 
 6. I use [Python to do intervations for the dataset](https://github.com/Jonahhaha/Intervetion/blob/main/Lavaan/CODE_Lavaan%20Data%20Result.ipynb), since we think Y0_CD will be the main variable, how much [Y0_CD changes](https://github.com/Jonahhaha/Intervetion/blob/main/Fomal_Result_Summary/final_variable_change_output.txt) will impact other variable which is the important for us for this project. 
+
+Sorry the Python code is still a little bit messy. I will keep working on the code. 
 
 # [Structural Equation Modeling](https://github.com/Jonahhaha/Intervetion/tree/main/Bootstrpe_Final_Result)
 We used Lavaan in R to estimate causal effects based on the identified relationships. Structural equation modeling was used to calculate standardized causal effects, and model fit was assessed using SRMR and CFI scores.
