@@ -1,4 +1,4 @@
-# Causal Modeling of Juvenile Criminal Justice Involvement
+# Juvenile Criminal Justice Involvement Causal Analysis
 This repository contains code and data for a research project studying the intergenerational impacts of parental criminal justice system (CJS) involvement on children’s behaviors. The project uses causal discovery and structural equation modeling to identify factors influencing children’s involvement with the CJS and potential intervention targets.
 
 # Table of Contents
